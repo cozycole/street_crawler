@@ -2,9 +2,7 @@ import unittest
 from dotenv import load_dotenv
 import os
 import requests
-import psycopg2 as pg
-import src.db_io as dbio
-import src.google_io as glio
+import src.crawl_io.google_io as glio
 
 load_dotenv()
 
